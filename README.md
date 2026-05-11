@@ -29,7 +29,6 @@ Workflow         Git · CI/CD
 
 | Projet | Description | Stack |
 |--------|-------------|-------|
-|
 | [🤖 PrevCorp Agent](https://github.com/YoannB-data/prevcorp_agent) | Agent IA qui répond à des questions métier en langage naturel depuis des données modélisées en architecture médaillon. Phase 1 : 79,2% sur eval set de 61 questions | Python · API Anthropic · dbt · DuckDB |
 | [🚲 Local Bike Analytics](https://github.com/YoannB-data/project_local_bike) | Modélisation dbt complète (architecture médaillon) d'une chaîne de magasins — staging, intermediate, mart + analyse ABC | dbt · SQL · BigQuery |
 | [🧠 SQL SRS](https://github.com/YoannB-data/sql_srs) | App de révision SQL en spaced repetition — interface Streamlit | Python · Streamlit |
