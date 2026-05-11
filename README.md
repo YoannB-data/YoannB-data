@@ -19,7 +19,7 @@ Transformation   dbt · SQL · Python (Pandas, DuckDB)
 Stockage         BigQuery
 Orchestration    Airflow
 Visualisation    Metabase · Power BI
-IA / Agents      Text-to-SQL · LLM · Streamlit
+IA / Agents      API Anthropic · Text-to-SQL · LLM · Streamlit
 Workflow         Git · CI/CD
 ```
 
@@ -29,17 +29,16 @@ Workflow         Git · CI/CD
 
 | Projet | Description | Stack |
 |--------|-------------|-------|
+|
+| [🤖 PrevCorp Agent](https://github.com/YoannB-data/prevcorp_agent) | Agent IA qui répond à des questions métier en langage naturel depuis des données modélisées en architecture médaillon. Phase 1 : 79,2% sur eval set de 61 questions | Python · API Anthropic · dbt · DuckDB |
 | [🚲 Local Bike Analytics](https://github.com/YoannB-data/project_local_bike) | Modélisation dbt complète (architecture médaillon) d'une chaîne de magasins — staging, intermediate, mart + analyse ABC | dbt · SQL · BigQuery |
 | [🧠 SQL SRS](https://github.com/YoannB-data/sql_srs) | App de révision SQL en spaced repetition — interface Streamlit | Python · Streamlit |
-| [🎮 Gamezone Shop](https://github.com/YoannB-data/gamezone_shop) | Analyse des performances commerciales d'un retailer | Python · Pandas |
 
 ---
 
 ## Ce sur quoi je travaille en ce moment
 
-- Intégration d'une couche **Text-to-SQL** sur un projet dbt existant
-- Exploration des **semantic layers** (MetricFlow / Cube) comme fondation pour des agents data
-- Construction d'un profil **AI Analytics Engineer** : LLM appliqués à la donnée métier
+Construction d'un agent IA sur données d'assurance synthétiques (PrevCorp). Phase 1 bouclée : 79,2% sur eval set de 61 questions. Roadmap 6 phases — Streamlit, semantic layer, RAG, LangGraph, déploiement public.
 
 ---
 
